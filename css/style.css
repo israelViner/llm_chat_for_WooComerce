@@ -1,0 +1,21 @@
+#llm-chat-widget .chat-container {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#llm-chat-widget .messages {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#llm-chat-widget input, #llm-chat-widget button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
